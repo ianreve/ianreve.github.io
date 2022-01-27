@@ -1,0 +1,399 @@
+<!doctype html>
+<html class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Ian Reve</title>
+</head>
+
+<body class="bg-[#91C0DD] text-gray-800  dark:bg-[#0A192F] dark:text-slate-50 scroll-smooth">
+   
+   <!-- Nav Bar -->
+    <section id="Nav" class=" sticky top-0 z-30 w-full lg:max-w-7xl mx-auto">
+        <nav class="flex sticky md:flex md:flex-row backdrop-blur-xl py-5  ">
+            <div class=" w-full flex flex-wrap items-center justify-between px-6">
+
+                <a class="ml-10 text-2xl text-[#0A192F] hover:text-[#233554] dark:text-[#64FFDA] dark:hover:text-teal-100"
+                    href="#">ianreve</a>
+
+                <div class=" hidden md:flex space-x-4 ">
+                    <a class="  hover:bg-[#43B9C6]  dark:hover:bg-emerald-900 rounded-lg   px-6 py-1"
+                        href="#About">About</a>
+                    <a class="  hover:bg-[#43B9C6]  dark:hover:bg-emerald-900 rounded-lg   px-6 py-1"
+                        href="#Skills">Skills</a>
+                    <a class="  hover:bg-[#43B9C6]  dark:hover:bg-emerald-900 rounded-lg   px-4 py-1"
+                        href="#Projects">Projects</a>
+                    <a class="  hover:bg-[#43B9C6]  dark:hover:bg-emerald-900 rounded-lg   px-4 py-1"
+                        href="/document/IanReveCacao_CV.pdf" target="_blank">My CV</a>
+                    <a class="  hover:bg-[#43B9C6]  dark:hover:bg-emerald-900 rounded-lg   px-4 py-1"
+                        href="#Contact">Contact</a>
+                </div>
+                <div class="flex ">
+                    <!-- ==============old Dark Mode switch checked remove as default -->
+                    <div
+                        class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                        <input type="checkbox" name="toggle" checked id="checkbox"
+                            class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer" />
+                        <label for="toggle"
+                            class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+                    </div>
+
+
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden flex items-center">
+                        <button class="outline-none mobile-menu-button">
+                            <svg class=" w-6 h-6 text-gray-500 hover:text-[#64FFDA] " x-show="!showMenu" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hidden mobile-menu text-center md:hidden lg:hidden">
+                    <ul class="">
+                        <li class="active"><a href="#About"
+                                class="block text-sm px-2 py-4 text-white bg-[#286D5D] font-semibold">About</a></li>
+
+                        <li><a href="#skills"
+                                class="block text-sm px-2 py-4 hover:bg-[#286D5D] transition duration-300">Skills</a>
+                        </li>
+                        <li><a href="#projects"
+                                class="block text-sm px-2 py-4 hover:bg-[#286D5D] transition duration-300">Projects</a>
+                        <li><a href="#_" class="block text-sm px-2 py-4 hover:bg-[#286D5D] transition duration-300">My
+                                CV</a>
+                        <li><a href="#contact"
+                                class="block text-sm px-2 py-4 hover:bg-[#286D5D] transition duration-300">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Welcome Terminal -->
+    <section id="Landing"
+        class=" w-full max-w-7xl mx-auto js-show-on-scroll  motion-safe:animate-fadeIn px-10 ">
+        <div class=" flex h-screen-landing items-center justify-center">
+            <div class="gap-6 items-center justify-center overflow-auto w-full">
+                <div
+                    class="  shadow-xl  bg-[#E6F1FF] dark:bg-[#112240] rounded-3xl w-18/12 lg:w-8/12 mx-auto h-2/3   text-center">
+                    <div
+                        class="flex  items-center px-6 w-full bg-[#CCD6F6]  dark:bg-[#233554] h-10 rounded-t-3xl space-x-1 ">
+                        <div class="bg-[#F46567] rounded-full w-3 h-3 align-middle"></div>
+                        <div class="bg-[#EDC859] rounded-full w-3 h-3 align-middle"></div>
+                        <div class="bg-[#4EBA7C] rounded-full w-3 h-3 align-middle"></div>
+                    </div>
+
+
+
+                    <div class="p-14  h-full flex flex-col  justify-center items-center place-content-center  ">
+                        <div class="typewriter-effect flex">
+                            <h5 class=" text dark:text-[#64FFDA] text-xl lg:text-3xl font-normal mb-2 justify-start flex "
+                                id="typewriter-text"></h5>
+                        </div>
+
+                        <p class="lg:text-9xl  dark:text-[#CBD6F4] text-7xl mb-4 items-center content-center "
+                            id="typewriter-text1">
+                            <strong class="font-mono">I</strong>an
+                            <strong class="font-mono">R</strong>eve</p>
+                        <p class="text-[#] dark:text-[#8792AE] text-2xl mb-4 items-center content-center ">Web
+                            Developer, Photographer</p>
+                        <a id="btn-CV" href="/document/IanReveCacao_CV.pdf" target="_blank"
+                            class=" content-center items-center w-fit px-6 py-2.5 bg-[#286D5D] text-white dark:bg-[#286D5D]  font-medium text-md leading-tight  rounded shadow-md dark:hover:bg-emerald-900  hover:shadow-lg focus:bg-[#4EBA7C] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#64FFDA] active:shadow-lg transition duration-150 ease-in-out hover:delay-75">View
+                            my CV</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="About"
+        class=" bg-[#E6F1FF] dark:bg-[#286D5D]  max-w-7xl  mx-auto js-show-on-scroll lg:rounded-3xl rounded-b-full ">
+        <div class="  px-6 py-20 mx-auto">
+            <div class=" flex flex-col  items-center justify-center  sm:flex-col md:flex-col lg:flex-row xl:flex-row  ">
+                <div class=" mx-4 w-full   lg:w-1/2 xl:w-4/6 px-14 sm:px-0">
+                    <h1 class=" text-3xl font-medium text-gray-800 capitalize lg:text-4xl dark:text-white">About Me</h1>
+
+                    <p class=" text-xl mt-4 text-gray-800 dark:text-gray-300 ">
+                        Hi there! I'm <i class=" font-extrabold dark:text-[#fff] text-[#286D5D]">Ian Reve Cacao</i> - a
+                        front end developer based in Watford, UK and
+                        I love creating minimal and beatiful looking websites.
+                    </p>
+                    <p class="text-xl mt-4 text-gray-800 dark:text-gray-300">
+                        My background consist of a degree in <i
+                            class=" font-extrabold dark:text-[#fff] text-[#286D5D] ">Information Technologies
+                            Specialized in
+                            Multimedia Technologies</i>. I also have a passion for Photography which develop my good eye
+                        for details.
+                    </p>
+                    <p class="text-xl  mt-4 text-gray-800 dark:text-gray-300">
+                        My passion for design and Technology led me to seek opportunities in software development. I
+                        recently
+                        completed a <span class=" font-extrabold dark:text-[#fff] text-[#286D5D] "> 3-month Software
+                            Development Bootcamp </span> which has taken my
+                        skills to a professional level.
+                    </p>
+                </div>
+
+                <div class="">
+                    <div>
+                        <img class="flex  justify-center object-cover rounded-full mt-10 md:mt-0  h-64"
+                            src="/images/me.png" alt="">
+                        <!--Name and Description  -->
+                        <!-- <h1  class=" flex justify-center  mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white ">@ianreve</h1>
+                  
+                  <p class=" flex justify-center mt-2 text-gray-500 capitalize dark:text-gray-300">Web developer</p>
+        </div> -->
+
+
+                    </div>
+                </div>
+            </div>
+    </section>
+      <!-- Dost Background ================================================= -->
+  <section>
+    <div class="bg ">
+      <div class="dotWrapper dotWrapper-1">
+        <div class="dot dot-1"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-2">
+        <div class="dot dot-2"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-3">
+        <div class="dot dot-3"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-4">
+        <div class="dot dot-4"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-5">
+        <div class="dot dot-5"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-6">
+        <div class="dot dot-6"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-7">
+        <div class="dot dot-7"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-8">
+        <div class="dot dot-8"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-9">
+        <div class="dot dot-9"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-10">
+        <div class="dot dot-10"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-11">
+        <div class="dot dot-11"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-12">
+        <div class="dot dot-12"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-13">
+        <div class="dot dot-13"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-14">
+        <div class="dot dot-14"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-15">
+        <div class="dot dot-15"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-16">
+        <div class="dot dot-16"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-17">
+        <div class="dot dot-17"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-18">
+        <div class="dot dot-18"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-19">
+        <div class="dot dot-19"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-20">
+        <div class="dot dot-20"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-21">
+        <div class="dot dot-21"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-22">
+        <div class="dot dot-22"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-23">
+        <div class="dot dot-23"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-24">
+        <div class="dot dot-24"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-25">
+        <div class="dot dot-25"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-26">
+        <div class="dot dot-26"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-27">
+        <div class="dot dot-27"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-28">
+        <div class="dot dot-28"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-29">
+        <div class="dot dot-29"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-30">
+        <div class="dot dot-30"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-31">
+        <div class="dot dot-31"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-32">
+        <div class="dot dot-32"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-33">
+        <div class="dot dot-33"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-34">
+        <div class="dot dot-34"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-35">
+        <div class="dot dot-35"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-36">
+        <div class="dot dot-36"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-37">
+        <div class="dot dot-37"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-38">
+        <div class="dot dot-38"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-39">
+        <div class="dot dot-39"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-40">
+        <div class="dot dot-40"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-41">
+        <div class="dot dot-41"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-42">
+        <div class="dot dot-42"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-43">
+        <div class="dot dot-43"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-44">
+        <div class="dot dot-44"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-45">
+        <div class="dot dot-45"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-46">
+        <div class="dot dot-46"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-47">
+        <div class="dot dot-47"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-48">
+        <div class="dot dot-48"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-49">
+        <div class="dot dot-49"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-50">
+        <div class="dot dot-50"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-51">
+        <div class="dot dot-51"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-52">
+        <div class="dot dot-52"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-53">
+        <div class="dot dot-53"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-54">
+        <div class="dot dot-54"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-55">
+        <div class="dot dot-55"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-56">
+        <div class="dot dot-56"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-57">
+        <div class="dot dot-57"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-58">
+        <div class="dot dot-58"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-59">
+        <div class="dot dot-59"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-60">
+        <div class="dot dot-60"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-61">
+        <div class="dot dot-61"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-62">
+        <div class="dot dot-62"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-63">
+        <div class="dot dot-63"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-64">
+        <div class="dot dot-64"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-65">
+        <div class="dot dot-65"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-66">
+        <div class="dot dot-66"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-67">
+        <div class="dot dot-67"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-68">
+        <div class="dot dot-68"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-69">
+        <div class="dot dot-69"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-70">
+        <div class="dot dot-70"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-71">
+        <div class="dot dot-71"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-72">
+        <div class="dot dot-72"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-73">
+        <div class="dot dot-73"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-74">
+        <div class="dot dot-74"></div>
+      </div>
+      <div class="dotWrapper dotWrapper-75">
+        <div class="dot dot-75"></div>
+      </div>
+    </div>
+  </section>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
