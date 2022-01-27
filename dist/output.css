@@ -621,6 +621,22 @@ body{
   max-width: 1280px;
 }
 
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.max-w-min {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+}
+
+.max-w-fit {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -684,6 +700,10 @@ body{
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -818,6 +838,10 @@ body{
 
 .p-20 {
   padding: 5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .py-5 {
@@ -2378,6 +2402,11 @@ typewriter-effect {
   .md\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .md\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 
   .md\:mt-0 {
