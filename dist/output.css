@@ -547,6 +547,22 @@ body{
   left: 1.25rem;
 }
 
+.left-1 {
+  left: 0.25rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -2791,6 +2807,10 @@ typewriter-effect {
 @media (min-width: 640px) {
   .sm\:relative {
     position: relative;
+  }
+
+  .sm\:left-5 {
+    left: 1.25rem;
   }
 
   .sm\:col-span-12 {
