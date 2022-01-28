@@ -472,6 +472,52 @@ body{
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .absolute {
   position: absolute;
 }
@@ -529,6 +575,10 @@ body{
   margin: 4rem;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -537,6 +587,11 @@ body{
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .ml-10 {
@@ -595,6 +650,26 @@ body{
   margin-bottom: 1.25rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
 .block {
   display: block;
 }
@@ -605,6 +680,10 @@ body{
 
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .grid {
@@ -647,6 +726,22 @@ body{
   height: auto;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-4\/6 {
+  height: 66.666667%;
+}
+
+.h-5\/6 {
+  height: 83.333333%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -671,6 +766,10 @@ body{
 
 .w-3\/6 {
   width: 50%;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .max-w-7xl {
@@ -699,6 +798,10 @@ body{
 
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .transform {
@@ -818,6 +921,12 @@ body{
   margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-auto {
   overflow: auto;
 }
@@ -868,13 +977,26 @@ body{
   border-width: 4px;
 }
 
+.border-0 {
+  border-width: 0px;
+}
+
 .border-t-0 {
   border-top-width: 0px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .border-yellow-200 {
   --tw-border-opacity: 1;
   border-color: rgb(254 240 138 / var(--tw-border-opacity));
+}
+
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .bg-\[\#91C0DD\] {
@@ -1059,6 +1181,11 @@ body{
   padding-right: 1.75rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1075,6 +1202,10 @@ body{
   padding-bottom: 2.5rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1085,6 +1216,10 @@ body{
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl {
@@ -1132,6 +1267,11 @@ body{
   line-height: 1;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1148,6 +1288,10 @@ body{
   font-weight: 800;
 }
 
+.font-black {
+  font-weight: 900;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1162,6 +1306,14 @@ body{
 
 .leading-none {
   line-height: 1;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
 }
 
 .text-gray-800 {
@@ -1202,6 +1354,21 @@ body{
 .text-\[\#233554\] {
   --tw-text-opacity: 1;
   color: rgb(35 53 84 / var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 .opacity-100 {
@@ -2386,6 +2553,11 @@ typewriter-effect {
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#4EBA7C\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(78 186 124 / var(--tw-bg-opacity));
+}
+
 .hover\:fill-\[\#FFFFFF\]:hover {
   fill: #FFFFFF;
 }
@@ -2402,6 +2574,11 @@ typewriter-effect {
 .hover\:text-\[\#64FFDA\]:hover {
   --tw-text-opacity: 1;
   color: rgb(100 255 218 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-lg:hover {
@@ -2471,6 +2648,11 @@ typewriter-effect {
     -webkit-animation: fadeIn 2s ease-in forwards;
             animation: fadeIn 2s ease-in forwards;
   }
+}
+
+.dark .dark\:border-\[\#286D5D\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(40 109 93 / var(--tw-border-opacity));
 }
 
 .dark .dark\:bg-\[\#0A192F\] {
@@ -2552,9 +2734,44 @@ typewriter-effect {
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
+.dark .dark\:text-green-200 {
+  --tw-text-opacity: 1;
+  color: rgb(187 247 208 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-green-100 {
+  --tw-text-opacity: 1;
+  color: rgb(220 252 231 / var(--tw-text-opacity));
+}
+
+.dark .dark\:focus-within\:border-\[\#286D5D\]:focus-within {
+  --tw-border-opacity: 1;
+  border-color: rgb(40 109 93 / var(--tw-border-opacity));
+}
+
+.dark .dark\:focus-within\:bg-\[\#286D5D\]:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 109 93 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:focus-within\:text-white:focus-within {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:border-\[\#286D5D\]:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(40 109 93 / var(--tw-border-opacity));
+}
+
 .dark .dark\:hover\:bg-emerald-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(6 78 59 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:hover\:bg-\[\#286D5D\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 109 93 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:hover\:fill-green-100:hover {
@@ -2564,6 +2781,11 @@ typewriter-effect {
 .dark .dark\:hover\:text-teal-100:hover {
   --tw-text-opacity: 1;
   color: rgb(204 251 241 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -2585,6 +2807,18 @@ typewriter-effect {
 
   .sm\:mb-5 {
     margin-bottom: 1.25rem;
+  }
+
+  .sm\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .sm\:ml-auto {
+    margin-left: auto;
   }
 
   .sm\:h-full {
@@ -2611,6 +2845,19 @@ typewriter-effect {
     flex-direction: column;
   }
 
+  .sm\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .sm\:border-l {
+    border-left-width: 1px;
+  }
+
+  .sm\:border-gray-200 {
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+  }
+
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -2626,9 +2873,27 @@ typewriter-effect {
     padding-bottom: 3rem;
   }
 
+  .sm\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -2685,6 +2950,16 @@ typewriter-effect {
     display: none;
   }
 
+  .md\:h-fit {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+
   .md\:grid-flow-col {
     grid-auto-flow: column;
   }
@@ -2726,6 +3001,11 @@ typewriter-effect {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2735,6 +3015,14 @@ typewriter-effect {
 
   .lg\:col-start-1 {
     grid-column-start: 1;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:ml-6 {
+    margin-left: 1.5rem;
   }
 
   .lg\:hidden {
@@ -2781,6 +3069,10 @@ typewriter-effect {
     flex-direction: row;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
   .lg\:gap-10 {
     gap: 2.5rem;
   }
@@ -2796,6 +3088,16 @@ typewriter-effect {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .lg\:text-3xl {
