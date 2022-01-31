@@ -743,9 +743,10 @@ Custom Scrollbar
   width: 5px;
 
 }
-::-webkit-scrollbar-track{
-  background-color: #0A192F ;
+.bar::-webkit-scrollbar-track{
+  background-color: transparent ;
 }
 ::-webkit-scrollbar-thumb{
  background-color: #286D5D ; 
 }
+

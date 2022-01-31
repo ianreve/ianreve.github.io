@@ -2393,8 +2393,8 @@ Custom Scrollbar
   width: 5px;
 }
 
-::-webkit-scrollbar-track{
-  background-color: #0A192F ;
+.bar::-webkit-scrollbar-track{
+  background-color: transparent ;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -2899,3 +2899,4 @@ Custom Scrollbar
     line-height: 1;
   }
 }
+
