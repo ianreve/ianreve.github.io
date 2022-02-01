@@ -539,6 +539,34 @@ body{
   left: 1.25rem;
 }
 
+.-top-0\.5 {
+  top: -0.125rem;
+}
+
+.-top-0 {
+  top: -0px;
+}
+
+.top-0\.5 {
+  top: 0.125rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -684,6 +712,26 @@ body{
 
 .h-5 {
   height: 1.25rem;
+}
+
+.h-3\/4 {
+  height: 75%;
+}
+
+.h-5\/6 {
+  height: 83.333333%;
+}
+
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .w-full {
@@ -959,6 +1007,21 @@ body{
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E4E5E6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 229 230 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#EBECED\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 236 237 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1078,6 +1141,26 @@ body{
 
 .pt-28 {
   padding-top: 7rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-left {
