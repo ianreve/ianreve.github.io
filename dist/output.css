@@ -654,6 +654,10 @@ body{
   margin-left: 0.5rem;
 }
 
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -732,6 +736,10 @@ body{
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .w-full {
@@ -929,6 +937,16 @@ body{
 .rounded-b-full {
   border-bottom-right-radius: 9999px;
   border-bottom-left-radius: 9999px;
+}
+
+.rounded-t-full {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 
 .border-4 {
@@ -1161,6 +1179,10 @@ body{
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-left {
