@@ -4,45 +4,41 @@
 
 @tailwind utilities;
 
-@layer base{
-   
-  body{
-        font-family: 'Nunito', sans-serif;
-        
-    }
+@layer base {
+  body {
+    font-family: "Nunito", sans-serif;
+  }
 }
 
-#Landing{
-  font-family: 'Cutive Mono', monospace;
+#Landing {
+  font-family: "Cutive Mono", monospace;
   text-rendering: optimizeLegibility;
   text-rendering: optimizeSpeed;
 }
 
-
 .toggle-checkbox:checked {
-    @apply: right-0 border-green-400;
-    right: 0;
-    border-color: #68D391;
-  }
-  .toggle-checkbox:checked + .toggle-label {
-    @apply: bg-green-400;
-    background-color: #68D391;
-  }
-  
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #68d391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400;
+  background-color: #68d391;
+}
+
 /* ===================Dark Mode / Light Mode Switch====================== */
-#checkbox:checked + label .switch-ball{
+#checkbox:checked + label .switch-ball {
   background-color: white;
   transform: translateX(24px);
   transition: transform 0.3s linear;
 }
 
-  /* ========================== */
-  .h-screen-landing{
-    height: calc(100vh - 71.99px);
+/* ========================== */
+.h-screen-landing {
+  height: calc(100vh - 71.99px);
 }
 
-
-typewriter-effect {
+.typewriter-effect {
   display: flex;
   justify-content: center;
   font-family: monospace;
@@ -79,8 +75,17 @@ typewriter-effect {
   }
 }
 
-#btn-CV{
-  font-family: 'Nunito', sans-serif;
+#btn-CV {
+  font-family: "Nunito", sans-serif;
+}
+
+/* LOGO  */
+
+.logo {
+  fill: none;
+  stroke: #64ffda;
+  stroke-linejoin: round;
+  stroke-width: 26.75px;
 }
 
 /* .roboto{
@@ -95,7 +100,7 @@ typewriter-effect {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  
+
   z-index: -10;
   position: fixed;
   width: 100vw;
@@ -688,65 +693,64 @@ typewriter-effect {
   0% {
     opacity: 0;
     transform: rotate(0deg);
- }
-  25%, 75% {
+  }
+  25%,
+  75% {
     opacity: 1;
- }
+  }
   50% {
     opacity: 0;
- }
+  }
   100% {
     opacity: 0;
     transform: rotate(360deg);
- }
+  }
 }
 @keyframes flying {
   0% {
     transform: translate(0, 0);
- }
+  }
   10% {
     transform: translate(20px, 50px);
- }
+  }
   20% {
     transform: translate(-30px, 10px);
- }
+  }
   30% {
     transform: translate(10px, 60px);
- }
+  }
   40% {
     transform: translate(50px, 0px);
- }
+  }
   50% {
     transform: translate(-10px, -40px);
- }
+  }
   60% {
     transform: translate(-40px, 20px);
- }
+  }
   70% {
     transform: translate(30px, -30px);
- }
+  }
   80% {
     transform: translate(0px, -60px);
- }
+  }
   90% {
     transform: translate(40px, 10px);
- }
+  }
   100% {
     transform: translate(0, 0);
- }
+  }
 }
 
 /* --------------------------------
 Custom Scrollbar
 -------------------------------- */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 5px;
-
 }
-.bar::-webkit-scrollbar-track{
-  background-color: transparent ;
+.bar::-webkit-scrollbar-track {
+  background-color: transparent;
 }
-::-webkit-scrollbar-thumb{
- background-color: #286D5D ; 
+::-webkit-scrollbar-thumb {
+  background-color: #286d5d;
 }
-
