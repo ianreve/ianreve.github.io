@@ -1,1 +1,38 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.73 936.97"><defs><style>.cls-1,.cls-2,.cls-4{fill:none;stroke-linecap:round;stroke-miterlimit:10;stroke-width:103.29px;}.cls-1{stroke:#233554;}.cls-2{stroke:#8892b0;}.cls-3{fill:#64ffda;}.cls-4{stroke:#0a192f;}</style></defs><path class="cls-1" d="M363.16,86.61H675.32c36.14,0,71.81,9.42,102.71,28.17C824.61,143,879,196.57,879,292.53c0,93.67-38.72,145.66-73,173.34a129.93,129.93,0,0,1-81.69,28.58H571.08" transform="translate(-116.87 -34.96)"/><path class="cls-2" d="M672.58,290.53H595.85c-56.86,0-113.53,14-159.62,48.68C394,371,353.37,415.07,353.37,485.12c0,77.55,47.83,137.43,79.57,169,11.49,11.44,7.2,9,34.5,27.91q10.13,7,20.75,13.28l381,225" transform="translate(-116.87 -34.96)"/><circle class="cls-3" cx="51.65" cy="52.23" r="49.48"/><line class="cls-4" x1="51.65" y1="255.57" x2="51.65" y2="885.32"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.73 936.97">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-2,
+            .cls-4 {
+                fill: none;
+                stroke-linecap: round;
+                stroke-miterlimit: 10;
+                stroke-width: 103.29px;
+            }
+
+            .cls-1 {
+                stroke: #233554;
+            }
+
+            .cls-2 {
+                stroke: #8892b0;
+            }
+
+            .cls-3 {
+                fill: #64ffda;
+            }
+
+            .cls-4 {
+                stroke: #0a192f;
+            }
+        </style>
+    </defs>
+    <path class="cls-1"
+        d="M363.16,86.61H675.32c36.14,0,71.81,9.42,102.71,28.17C824.61,143,879,196.57,879,292.53c0,93.67-38.72,145.66-73,173.34a129.93,129.93,0,0,1-81.69,28.58H571.08"
+        transform="translate(-116.87 -34.96)" />
+    <path class="cls-2"
+        d="M672.58,290.53H595.85c-56.86,0-113.53,14-159.62,48.68C394,371,353.37,415.07,353.37,485.12c0,77.55,47.83,137.43,79.57,169,11.49,11.44,7.2,9,34.5,27.91q10.13,7,20.75,13.28l381,225"
+        transform="translate(-116.87 -34.96)" />
+    <circle class="cls-3" cx="51.65" cy="52.23" r="49.48" />
+    <line class="cls-4" x1="51.65" y1="255.57" x2="51.65" y2="885.32" />
+</svg>
