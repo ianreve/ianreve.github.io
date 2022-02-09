@@ -19,16 +19,18 @@
 .toggle-checkbox:checked {
   @apply: right-0 border-green-400;
   right: 0;
-  border-color: #68d391;
+  border: #64ffda solid 2px;
 }
 .toggle-checkbox:checked + .toggle-label {
   @apply: bg-green-400;
-  background-color: #68d391;
+  background-color: transparent;
+  /* border-color: #64ffda; */
+  border: #64ffda solid 2px;
 }
 
 /* ===================Dark Mode / Light Mode Switch====================== */
 #checkbox:checked + label .switch-ball {
-  background-color: white;
+  background-color: transparent;
   transform: translateX(24px);
   transition: transform 0.3s linear;
 }
