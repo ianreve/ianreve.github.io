@@ -37,7 +37,7 @@
 
 /* ========================== */
 .h-screen-landing {
-  height: calc(100vh - 71.99px);
+  height: calc(100vh - 88.68px);
 }
 
 .typewriter-effect {
@@ -95,7 +95,7 @@
 } */
 
 /* ==================BG DOts=============================================== */
-/* .bg {
+.bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -742,7 +742,7 @@
   100% {
     transform: translate(0, 0);
   }
-} */
+}
 
 /* --------------------------------
 Custom Scrollbar
