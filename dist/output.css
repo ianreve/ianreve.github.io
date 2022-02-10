@@ -590,6 +590,16 @@ body {
   margin-right: 2.5rem;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -718,6 +728,18 @@ body {
   height: 1.25rem;
 }
 
+.max-h-32 {
+  max-height: 8rem;
+}
+
+.max-h-10 {
+  max-height: 2.5rem;
+}
+
+.max-h-48 {
+  max-height: 12rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -748,6 +770,14 @@ body {
   width: 1.25rem;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -764,6 +794,10 @@ body {
 
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.max-w-screen-lg {
+  max-width: 1024px;
 }
 
 .flex-1 {
@@ -1121,6 +1155,16 @@ body {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pb-0 {
@@ -3009,6 +3053,10 @@ Custom Scrollbar
 @media (min-width: 1280px) {
   .xl\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .xl\:max-w-7xl {
+    max-width: 80rem;
   }
 
   .xl\:flex-row {
