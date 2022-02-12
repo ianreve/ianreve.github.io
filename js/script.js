@@ -9,15 +9,6 @@ if (
   document.documentElement.classList.remove("dark");
 }
 
-// Whenever the user explicitly chooses light mode
-localStorage.theme = "light";
-
-// Whenever the user explicitly chooses dark mode
-localStorage.theme = "dark";
-
-// Whenever the user explicitly chooses to respect the OS preference
-localStorage.removeItem("theme");
-
 //Mobile menu ========================
 const btn = document.querySelector("button.mobile-menu-button");
 const menu = document.querySelector(".mobile-menu");
@@ -48,24 +39,24 @@ const dots = function () {
   }
 };
 
-const logoColor = function () {
-  if (checkbox.checked) {
-    logo.forEach((Element) => {
-      Element.style.stroke = "#64ffda";
-    });
-  } else {
-    logo.forEach((Element) => {
-      Element.style.stroke = "#0A192F";
-    });
-  }
-};
+// const logoColor = function () {
+//   if (checkbox.checked) {
+//     logo.forEach((Element) => {
+//       Element.style.stroke = "#64ffda";
+//     });
+//   } else {
+//     logo.forEach((Element) => {
+//       Element.style.stroke = "#0A192F";
+//     });
+//   }
+// };
 
 //calling the function directly
 
 toggleDarkMode();
 checkbox.addEventListener("click", toggleDarkMode);
 checkbox.addEventListener("click", dots);
-checkbox.addEventListener("click", logoColor);
+// checkbox.addEventListener("click", logoColor);
 
 // Tytpewritter effect
 const typeWriter = document.getElementById("typewriter-text");
