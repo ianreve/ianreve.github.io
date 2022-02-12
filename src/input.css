@@ -11,6 +11,9 @@
   }
 }
 
+* {
+  @apply transition-colors duration-100;
+}
 #Landing {
   font-family: "Cutive Mono", monospace;
   text-rendering: optimizeLegibility;
