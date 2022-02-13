@@ -861,10 +861,6 @@ body {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .gap-6 {
   gap: 1.5rem;
 }
@@ -2540,9 +2536,9 @@ Custom Scrollbar
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:bg-\[\#43B9C6\]:hover {
+.hover\:bg-\[\#09192E\]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(67 185 198 / var(--tw-bg-opacity));
+  background-color: rgb(9 25 46 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#286D5D\]:hover {
@@ -2555,17 +2551,16 @@ Custom Scrollbar
   background-color: rgb(78 186 124 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[\#09192E\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(9 25 46 / var(--tw-bg-opacity));
-}
-
 .hover\:fill-\[\#6B727F\]:hover {
   fill: #6B727F;
 }
 
 .hover\:fill-\[\#FFFFFF\]:hover {
   fill: #FFFFFF;
+}
+
+.hover\:stroke-white:hover {
+  stroke: #fff;
 }
 
 .hover\:text-\[\#fff\]:hover {
@@ -2578,6 +2573,11 @@ Custom Scrollbar
   color: rgb(35 53 84 / var(--tw-text-opacity));
 }
 
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hover\:text-\[\#64FFDA\]:hover {
   --tw-text-opacity: 1;
   color: rgb(100 255 218 / var(--tw-text-opacity));
@@ -2586,16 +2586,6 @@ Custom Scrollbar
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[white\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-lg:hover {
@@ -2814,6 +2804,10 @@ Custom Scrollbar
 
 .dark .dark\:hover\:fill-green-100:hover {
   fill: #dcfce7;
+}
+
+.dark .dark\:hover\:stroke-teal-100:hover {
+  stroke: #ccfbf1;
 }
 
 .dark .dark\:hover\:text-\[\#64ffda\]:hover {
