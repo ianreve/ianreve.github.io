@@ -857,6 +857,14 @@ body {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
@@ -2547,6 +2555,11 @@ Custom Scrollbar
   background-color: rgb(78 186 124 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#09192E\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 25 46 / var(--tw-bg-opacity));
+}
+
 .hover\:fill-\[\#6B727F\]:hover {
   fill: #6B727F;
 }
@@ -2573,6 +2586,16 @@ Custom Scrollbar
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[white\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-lg:hover {
