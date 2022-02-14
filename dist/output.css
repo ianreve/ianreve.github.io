@@ -560,12 +560,8 @@ body {
   top: 0px;
 }
 
-.-top-8 {
-  top: -2rem;
-}
-
-.-bottom-10 {
-  bottom: -2.5rem;
+.bottom-0 {
+  bottom: 0px;
 }
 
 .left-5 {
@@ -578,14 +574,6 @@ body {
 
 .bottom-3 {
   bottom: 0.75rem;
-}
-
-.-top-0 {
-  top: -0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .z-50 {
@@ -677,10 +665,6 @@ body {
 
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.-mt-8 {
-  margin-top: -2rem;
 }
 
 .box-border {
@@ -1033,11 +1017,6 @@ body {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#C1D3FF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(193 211 255 / var(--tw-bg-opacity));
@@ -1162,6 +1141,11 @@ body {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pb-0 {
@@ -1335,24 +1319,19 @@ body {
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
-.text-\[\#233554\] {
-  --tw-text-opacity: 1;
-  color: rgb(35 53 84 / var(--tw-text-opacity));
-}
-
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.text-\[\#233554\] {
+  --tw-text-opacity: 1;
+  color: rgb(35 53 84 / var(--tw-text-opacity));
+}
+
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .no-underline {
@@ -2602,11 +2581,6 @@ Custom Scrollbar
   background-color: rgb(78 186 124 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
 .hover\:fill-\[\#6B727F\]:hover {
   fill: #6B727F;
 }
@@ -2882,10 +2856,6 @@ Custom Scrollbar
 }
 
 @media (min-width: 640px) {
-  .sm\:-top-8 {
-    top: -2rem;
-  }
-
   .sm\:left-5 {
     left: 1.25rem;
   }
@@ -2975,12 +2945,16 @@ Custom Scrollbar
 }
 
 @media (min-width: 768px) {
-  .md\:-bottom-8 {
-    bottom: -2rem;
-  }
-
   .md\:-bottom-10 {
     bottom: -2.5rem;
+  }
+
+  .md\:left-0 {
+    left: 0px;
+  }
+
+  .md\:left-5 {
+    left: 1.25rem;
   }
 
   .md\:col-span-full {
@@ -3054,6 +3028,10 @@ Custom Scrollbar
 }
 
 @media (min-width: 1024px) {
+  .lg\:left-0 {
+    left: 0px;
+  }
+
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -3106,6 +3084,16 @@ Custom Scrollbar
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .lg\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .lg\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .lg\:text-3xl {

@@ -258,7 +258,7 @@
 
 
     <!-- About Me Section -->
-    <section "
+    <section id="About"
         class=" bg-[#E6F1FF] dark:bg-[#286D5D] w-11/12 xl:max-w-7xl mx-auto js-show-on-scroll lg:rounded-3xl ring-1
         ring-[#286D5D]/5 rounded-b-full">
         <div class="  px-6 py-16 mx-auto">
@@ -301,7 +301,7 @@
 
     <!-- Skills Sections -->
     <!-- Developmment Skills -->
-    <section id="">
+    <section id="Skills">
         <h1
             class="pb-14 pt-28 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl text-center  dark:text-white">
             Development Skills</h1>
@@ -420,7 +420,7 @@
         </div>
     </section>
     <!-- Design and Tools Skills -->
-    <section id="Skills">
+    <section id="">
         <h1
             class="pb-14 pt-28 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl text-center  dark:text-white">
             Design and Tools Skills</h1>
@@ -498,13 +498,38 @@
             <div class="flex items-center justify-center mx-auto max-w-6xl mt-10">
                 <div
                     class="grid grid-cols-1 gap-10  md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3   w-full max-w-fit text-center justify-center items-center">
+                    <div class=" md:col-span-full lg:col-span-1">
+                        <div class="relative flex flex-col items-start justify-end h-full  overflow-hidden rounded-xl ">
+                            <a href="https://pinterest-gallery.herokuapp.com/" target="_blank"
+                                class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110"
+                                style="background-image:url('/images/Image\ Gallery.gif')"></a>
+                            <div
+                                class="relative z-20 w-full h-auto py-8 dark:text-white bg-[#C1D3FF]   dark:bg-[#286D5D] border-t-0 border-yellow-200 px-7">
+                                <a href="#_"
+                                    class="inline-block text-xs font-semibold absolute top-0 left-5 sm:left-5 md:left-5 lg:left-0 lg:px-1 lg:py-1 -mt-3.5 rounded-full px-4 py-2 uppercase text-gray-100 backdrop-blur-xl  ">HTML, CSS, Javascript, Python, 
+                                    , Sqlite, Flask, Tailwind </a>
+                                <h2 class="mb-5 text-5xl font-semibold"><a href="#_">Photo Gallery</a></h2>
+                                <p class="mb-2 text-lg font-normal text-gray-700 dark:text-gray-100 opacity-100">A image board pinterest inspired. </p>
+                                <a href="https://github.com/ianreve/flask-pinterest-gallery" target="_blank"
+                                    class="absolute right-3 bottom-3 text-gray-400 hover:text-gray-500" title="Github">
+                                    <!-- <span class="sr-only">GitHub</span> -->
+                                    <svg class="w-9 h-9  " fill="currentColor" width="25px" height="25px"
+                                        viewBox="0 0 24 24" aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
 
+                            </div>
+                        </div>
+                    </div>
                     <div class=" ">
                         <div
                             class="relative flex flex-col items-start justify-end h-full  overflow-hidden rounded-xl  ">
                             <a href="/Pomodoro Dark/index.html" target="_blank"
                                 class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110"
-                                style="background-image:url('/images/Dark-Pomodoro.png')">
+                                style="background-image:url('/images/pomodoro.gif')">
                             </a>
                             <div
                                 class="relative z-20 w-full h-auto py-8 dark:text-white text-[#0A192F] bg-[#C1D3FF]  dark:bg-[#286D5D] border-t-0 border-yellow-200 px-7">
@@ -551,7 +576,7 @@
                                 <h2 class="mb-5 text-5xl font-semibold"><a href="#_">Music Database</a></h2>
                                 <p class="mb-2 text-lg font-normal text-gray-700 dark:text-gray-100 opacity-100">A
                                     database using CRUD. </p>
-                                <a href="https://github.com/ianreve " target="_blank"
+                                <a href="https://github.com/ianreve/C5Music" target="_blank"
                                     class="absolute right-3 bottom-3 text-gray-400 hover:text-gray-500" title="Github">
                                     <!-- <span class="sr-only">GitHub</span> -->
                                     <svg class="w-9 h-9 " fill="currentColor" width="25px" height="25px"
@@ -566,33 +591,7 @@
                         </div>
                     </div>
 
-                    <div class=" md:col-span-full lg:col-span-1">
-                        <div class="relative flex flex-col items-start justify-end h-full  overflow-hidden rounded-xl ">
-                            <a href="#_"
-                                class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110"
-                                style="background-image:url('https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/686649/retina_800x320_cover-python-design-patterns-dc53d29faeb84911918f0f60d472f35d.png')"></a>
-                            <div
-                                class="relative z-20 w-full h-auto py-8 dark:text-white bg-[#C1D3FF]   dark:bg-[#286D5D] border-t-0 border-yellow-200 px-7">
-                                <a href="#_"
-                                    class="inline-block text-xs font-semibold absolute top-0 left-5 sm:left-5 -mt-3.5 rounded-full px-4 py-2 uppercase text-gray-100 backdrop-blur-xl  ">Python
-                                    , MySql</a>
-                                <h2 class="mb-5 text-5xl font-semibold"><a href="#_">A Python Project</a></h2>
-                                <p class="mb-2 text-lg font-normal text-gray-700 dark:text-gray-100 opacity-100">A web
-                                    app made in Python. </p>
-                                <a href="https://github.com/ianreve/flask-pinterest-gallery" target="_blank"
-                                    class="absolute right-3 bottom-3 text-gray-400 hover:text-gray-500" title="Github">
-                                    <!-- <span class="sr-only">GitHub</span> -->
-                                    <svg class="w-9 h-9  " fill="currentColor" width="25px" height="25px"
-                                        viewBox="0 0 24 24" aria-hidden="true">
-                                        <path fill-rule="evenodd"
-                                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
+     
 
                 </div>
             </div>
